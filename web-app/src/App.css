@@ -1,0 +1,83 @@
+.Side {
+  position: fixed;
+  width: 240px;
+  top: 0px;
+  left: 0px;
+  bottom: 0px;
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(29, 35, 39);
+}
+
+.Loading {
+  text-align: center;
+  padding: 16px;
+}
+
+.Main {
+  height: 100vh;
+  margin-inline-start: 240px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.Note-link {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  padding: 16px;
+  color: inherit;
+  text-decoration: inherit;
+  font-weight: bold;
+  cursor: pointer;
+  align-items: end;
+  border-bottom: 1px solid black;
+  text-align: start;
+}
+
+.Note-link:hover{
+  background-color: rgb(44, 51, 56);
+}
+
+.Note-link.active {
+  background-color: darkslategrey;
+}
+
+.Note-link-lastUpdatedAt {
+  font-size: 10px;
+  color: darkgrey;
+}
+
+.Button-create-note {
+  width: 40px;
+  height: 40px;
+  font-size: 24px;
+  background-color: rgb(44, 51, 56);
+  cursor: pointer;
+}
+
+.Button-delete-note {
+  width: 30px;
+  height: 25px;
+  font-size: 16px;
+  background-color: rgb(44, 51, 56);
+  cursor: pointer;
+}
+
+.Temperature {
+  padding: 8px;
+  font-size: 10px;
+  color: darkgrey;
+}
+
+.Ajout-De-Note {
+  padding: 8px;
+  color: darkgrey;
+  background-color: rgb(44, 51, 56);
+}
+
+.Input-Note {
+  background-color: lightgray;
+}
